@@ -1,0 +1,67 @@
+@CHARSET "UTF-8";
+.block {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    font-size: 13px;
+}
+.block a
+{
+    color: #000;
+}
+.breadnav
+{
+    line-height: 40px;
+    margin: 12px 0;
+	float: right;
+}
+.left
+{
+    float: left;
+    width: 20%;
+}
+.right
+{
+    float:right;
+    width:75%;
+}
+.left ol li
+{
+    height: 30px;
+    line-height:30px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    background:#e3e3e3;
+}
+.left ol li.cur,.left ol li:hover
+{
+    background: #f25821;
+}
+.left ol li.cur a
+{
+    color: #fff;
+}
+.left ol li a
+{
+    display: block;
+    padding-left: 45px;
+    color: #333333;
+    font-weight:bold;
+}
+.right .title
+{
+    height: 36px;
+    line-height: 36px;
+    border-bottom: #eeeeee 1px solid;
+    font-size: 20px;
+    margin: 0 0 20px 0px;
+    font-weight: bold;
+}
+.right .cont
+{
+	padding-right: 30%;
+}
+.right p
+{
+	margin: 20px 0;
+}

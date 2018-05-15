@@ -1,0 +1,48 @@
+.block
+{
+	width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+.subnav ul
+{
+	overflow: hidden;
+}
+.subnav ul li
+{
+	float: left;
+	width: 20%;
+}
+.subnav ul li.cur,.subnav ul li:hover
+{
+	border-bottom: 4px solid #f25821;
+}
+.subnav ul li.cur a
+{
+	color: #f25821;
+}
+.subnav ul a
+{
+	display: block;
+	border-left: 1px #d5d5d5 solid;
+    margin-left: -1px;
+	padding: 10px 0; 
+    text-align: center;
+}
+.content
+{
+	padding: 20px;
+}
+.content h1
+{
+	padding: 50px 20px;
+	text-align: center;
+}
+.content > p
+{
+	text-indent: 20px;
+	color: #666;
+	font-size: 17px;
+	line-height: 35px;
+	padding: 0 50px;
+}
